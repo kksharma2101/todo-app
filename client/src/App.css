@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.main-container {
+  background-color: #c6e0ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+.container {
+  width: 26rem;
+  height: 36rem;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #58dffe;
+  overflow-y: auto;
+}

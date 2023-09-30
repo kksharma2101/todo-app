@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Registration and login css */
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  gap: 20px;
+}
+.registration > label > input {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 4px;
+  font-size: 20px;
+}
+.registration > label > p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.registration > .submit {
+  width: 255px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  background-color: #5222e2;
+  color: #fff;
+}
+.registration > .submit:hover {
+  transform: translateY(2px);
+  background-color: #0602fc;
+}
+.registration > .log {
+  width: 255px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #5222e2;
+  border-radius: 50px;
+}
+.registration > .log:hover {
+  transform: translateY(2px);
+  background-color: #0602fc;
+}
+
+/* Home page css */
+.heading {
+  text-align: center;
+}
+hr {
+  background-color: #000;
+  border: none;
+  height: 1.5px;
+  width: 100%;
+  margin: 10px 0;
+}
+.input-container {
+  display: flex;
+  margin-left: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.input-container > input {
+  width: 22rem;
+  gap: 0;
+  padding: 8px 18px 8px 8px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+  position: relative;
+}
+.input-container > span {
+  position: relative;
+  right: 15px;
+  cursor: pointer;
+}
+.input-container > button {
+  padding: 8px 15px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  right: 16px;
+  font-size: 20px;
+  border: none;
+}
+.input-container > button:hover {
+  background-color: #819eed;
+  cursor: pointer;
+}
+/* Todo list page css */
+.liList {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 8px;
+  border-radius: 15px;
+}
+.liList > li {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.liList > .deleteList {
+  color: #fd7b7b;
+  width: 25px;
+  height: 25px;
+}
+.liList > .deleteList:hover {
+  color: #ff0505;
+  cursor: pointer;
+}
